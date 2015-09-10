@@ -45,3 +45,29 @@ $ pip install -e .
 $ pip install "file://$(pwd)#egg=bulbs[dev]"
 $ py.test tests
 ```
+
+If you don't have Python 3 on your system, you can _brew_ install it:
+
+```bash
+$ brew install python3
+$ brew linkapps
+```
+
+If you don't have _virtualenv_ on you system, you can _pip_ install that:
+
+```bash
+$ pip install virtualenv
+```
+
+If you don't have _brew_ installed, you can get that via:
+
+```bash
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+If you don't have _pip_, install Python 2 and Python 3 via _brew_:
+
+```bash
+$ brew install python2 python3
+$ brew linkapps
+```
