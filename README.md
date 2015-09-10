@@ -24,7 +24,7 @@ $ git clone https://github.com/theonion/bulbs2.git
 Alternatively, if you just want to use it in a Django application, you can install it via _pip_:
 
 ```bash
-$ pip install -e https://github.com/theonion/bulbs2
+$ pip install -e git+https://github.com/theonion/bulbs2.git#egg=bulbs2
 ```
 
 __Note:__ since this is a far-afield project that may or may not be brought to production, I am refraining from adding 
